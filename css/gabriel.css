@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+body {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2em;
+}
+
+.text-title {
+    font-family: 'Concert One', cursive;
+    font-size: 8rem;
+    color: #fff;
+}
+
+.text-subtitle {
+    font-family: 'Abel', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.text-title-xs {
+    font-family: 'Concert One', cursive;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.text-subtitle-xs {
+    font-family: 'Abel', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.bg-title {
+    background: url('../img/banner5.png') center center no-repeat;
+    background-size: cover;
+}
+
+.bg-title-xs {
+    background-image: linear-gradient(to left top, #D9078F, #07D9C4);
+}
+
+.bg-footer {
+    background-image: linear-gradient(to bottom right, #2d3436, #0984e3);
+}
+
+.bg-nav {
+    background-image: linear-gradient(to bottom right, #2d3436, #2d3436);
+}
+
+.mt-n6 {
+    margin-top: -4rem;
+}
+
+.text-span {
+    z-index: 99;
+    position: absolute;
+}
