@@ -23,19 +23,15 @@ body {
     color: #fff;
 }
 
-.text-subtitle-xs {
-    font-family: 'Abel', sans-serif;
-    font-size: 1rem;
-    color: #fff;
-}
-
 .bg-title {
     background: url('../img/banner5.png') center center no-repeat;
     background-size: cover;
 }
 
-.bg-title-xs {
-    background-image: linear-gradient(to left top, #D9078F, #07D9C4);
+.bg-title2 {
+    background: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center center;
 }
 
 .bg-footer {
@@ -54,3 +50,36 @@ body {
     z-index: 99;
     position: absolute;
 }
+
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (max-width: 576px) {
+    .text-title {
+        font-size: 3rem;
+    }
+    .text-subtitle {
+        font-size: 1rem;
+    }
+    .bg-title {
+        background-image: linear-gradient(to bottom right, #a128b9, #40739e);
+    }
+    .bg-title2 {
+        background-image: linear-gradient(to bottom right, #c02eb4, #c7ecee);
+    }
+}
+
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+
+@media (max-width: 768px) {}
+
+
+/* Dispositivos large (desktops com 992px ou mais) */
+
+@media (max-width: 992px) {}
+
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+
+@media (max-width: 1200px) {}
